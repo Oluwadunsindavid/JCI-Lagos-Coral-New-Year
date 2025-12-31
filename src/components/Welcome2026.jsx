@@ -15,19 +15,22 @@ const Welcome2026 = () => {
         style={{ backgroundImage: `url(${headerImg})` }}
       >
         <div className="flex items-center justify-between gap-4 px-6 md:px-36 pt-10">
-          <div className="w-full h-full sm:w-20 sm:h-20">
+          <div className="w-full h-full sm:w-24 sm:h-24">
             <img
               src={logo2}
               className="rounded-2xl w-20 h-20 object-cover"
               alt=""
             />
           </div>
-          <i>
-            <h2 className="text-white text-center text-2xl py-2 sm:text-5xl md:text-7xl italics font-bold  transition-all duration-500">
-              Welcome to 2026
-            </h2>
-          </i>
-          <div className="w-full h-full sm:w-20 sm:h-20">
+          <div className="w-full">
+            {" "}
+            <i>
+              <h2 className="text-white text-center text-2xl py-2 sm:text-5xl md:text-7xl italics font-bold  transition-all duration-500">
+                Welcome to 2026
+              </h2>
+            </i>
+          </div>
+          <div className="w-full h-full sm:w-24 sm:h-24">
             <img src={logo3} className=" w-14 h-14 object-cover" alt="" />
           </div>
         </div>
