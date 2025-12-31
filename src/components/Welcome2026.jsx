@@ -27,8 +27,9 @@ const Welcome2026 = () => {
           {/* President Image */}
           <img
             src={President}
+            loading="lazy"
             alt="President Portrait"
-            className="w-full max-w-md rounded-md shadow-lg mb-8"
+            className="w-full max-w-md rounded-md shadow-lg mb-8 bg-gray-200"
           />
 
           <h2 className="text-2xl font-bold mb-4">
@@ -77,7 +78,7 @@ const Welcome2026 = () => {
             with each of you.
           </p>
 
-          <p >
+          <p>
             As One Pulse, we LIFT: Leveraging strength, Integrating Purpose,
             Focusing action and Transforming lives. Here’s to a year of Unity,
             Purpose, and Amplified Impact.
@@ -92,8 +93,6 @@ const Welcome2026 = () => {
             <p className="font-semibold">With warm regards,</p>
             <p className="font-bold mt-2">JCIN Amb. Racheal C. John Emeyazia</p>
             <p className="text-sm font-bold">Local Organization President</p>
-
-          
           </div>
         </div>
       </div>
