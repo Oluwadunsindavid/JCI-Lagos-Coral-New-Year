@@ -98,7 +98,7 @@ const Welcome2026 = () => {
         </div>
       </div>
       {/* lower part */}
-      <div className=" max-w-7xl mx-auto px-6  gap-10 flex flex-col items-center justify-between sm:flex-row">
+      <div className=" max-w-7xl mx-auto px-6  gap-10 flex flex-col items-center justify-between sm:flex-row mb-4">
         {/* Website */}
         <div className="mb-4 sm:mb-0">
           <p>WWW.JCILAGOSCORAL.NIG</p>
