@@ -3,6 +3,7 @@ import headerImg from "../assets/Header.png";
 import President from "../assets/President.jpg";
 import logo1 from "../assets/lift logo.jpg";
 import logo2 from "../assets/JCI logo.PNG";
+import logo3 from "../assets/Amplify.jpeg"
 
 const Welcome2026 = () => {
   return (
@@ -13,11 +14,25 @@ const Welcome2026 = () => {
         className="bg-cover bg-center"
         style={{ backgroundImage: `url(${headerImg})` }}
       >
-        <i>
+        <i >
           <h2 className="text-white text-center text-4xl sm:text-5xl md:text-7xl italics font-bold py-10 transition-all duration-500">
             Welcome to 2026
           </h2>
         </i>
+      </div>
+
+      {/* Logos */}
+      <div className="flex items-center justify-between gap-4 px-6 md:px-36 pt-10">
+        <div className="w-20 h-20">
+          <img
+            src={logo2}
+            className="rounded-2xl w-full h-full object-cover"
+            alt=""
+          />
+        </div>
+        <div className="w-20 h-20">
+          <img src={logo3} className=" w-full h-full object-cover" alt="" />
+        </div>
       </div>
 
       {/* MAIN CONTENT */}
@@ -29,7 +44,7 @@ const Welcome2026 = () => {
             src={President}
             loading="lazy"
             alt="President Portrait"
-            className="w-full max-w-md rounded-md shadow-lg mb-8 bg-gray-200"
+            className="w-full max-w-md rounded-md shadow-lg mb-8 bg-gray-200 mx-auto"
           />
 
           <h2 className="text-2xl font-bold mb-4">
@@ -106,13 +121,6 @@ const Welcome2026 = () => {
         <div className="flex items-center justify-between gap-4">
           <div className="w-20 h-20">
             <img src={logo1} className=" w-full h-full object-cover" alt="" />
-          </div>
-          <div className="w-20 h-20">
-            <img
-              src={logo2}
-              className="rounded-2xl w-full h-full object-cover"
-              alt=""
-            />
           </div>
         </div>
       </div>
